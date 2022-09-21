@@ -22,10 +22,11 @@
 }  
 body {  
      background-image: url("rock.jpg");
-     background-repeat:round;
-     background-position: fixed;
-     background-size: cover;
+     background-repeat:no-repeat;
+     background-size: 100%;
+     background-position: 1px;
 
+     
     font-family: "Roboto", sans-serif; 
 }  
 code {  
@@ -135,8 +136,8 @@ sup {
   <body>  
    <header><h1>Rock Paper Scissors Game</h1></header>  
    <div class="score-board">  
-    <div id="user-label" class="badge">user</div>  
-    <div id="computer-label" class="badge">comp</div>  
+    <div id="user-label" class="badge">You</div>  
+    <div id="computer-label" class="badge">computer</div>  
     <span id="user-score">0</span> : <span id="computer-score">0</span>  
    </div>  
    <div class="result"><p>Paper covers rock. You win the game!</p></div>  
